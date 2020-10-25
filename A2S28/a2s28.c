@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-//#include <string.h>
 
 void menu (void);
 void adicionar (int);
@@ -65,8 +64,6 @@ void adicionar (int i)
     printf("\nAltura: ");
     scanf("%i",&p[i].altura);
     setbuf(stdin,NULL);
-
-    //p=(Pessoa*)realloc(p, i * sizeof(Pessoa));
 }
 
 void listar (int i)
